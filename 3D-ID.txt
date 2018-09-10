@@ -1,0 +1,158 @@
+3D-ID
+
+Folks,
+I’m a week or more behind schedule.  But I’ve finally whipped up a very brief outline.  I propose that we now (will change later) work on a rotating plan (Bill, Audris, Maria, Robin, repeat).  I’ve resurrected parts of the email exchanges that got us to this point.  It’s important to note that I promised the other 3 CSAFE PIs the opportunity to join in once we had a serious outline.  To be operational, I declare this the start and ask that
+as you each take your turn you try to do it in less than a week.  Nobody is measuring how much you did during that week but just that you keep it short.
+
+After Robin hands the ball back to me before the end of the month, I plan to eyeball it and then send it to the other three CSAFE PIs.
+
+Bill
+
+Draft 0.0
+————————————
+Introduction
+
+	Software review
+
+	Statistics
+	
+	Reproducibility
+
+	Forensic Anthropology
+
+	Human Phylogeny
+		
+	Outline
+
+Phrenology
+
+	Definition
+
+	History
+
+	People
+
+	Discredited (Reminds me of Eugenics)
+
+fMRI
+	Brain Anatomy
+	
+	Brain Function
+
+	MRI & fMRI
+
+	Atlases
+
+Reproducibility
+
+The Software Review
+
+	Code
+
+	GUI
+
+	Database
+
+	PCA
+
+	Statistics
+
+
+End draft 0.0
+
+Some email excerpts among CSAFE PIs (A=Alicia Carraquiry,ISU, K=Karen Kafadar,UVa, H=Hal Stern, UCI) in chronological order.  I got some announcement about a new release of the software and kind of glanced at it and sent the first email to the PIs.
+
+August 10
+
+This sounds an awful lot like institutionalized phrenology.  I thought that had been
+totally debunked in the 19th century,
+
+Bill
+————————————————
+What does "phrenology" mean????
+
+Alicia
+——————————
+Phrenology was an old “science" where experts claimed to be able to infer things about an individual
+by measuring and touching their head.  The idea was that the shape of the skull implied things about
+the brain.
+
+I note that in the modern world (last 25 years) cognitive psychologists use fMRI to infer brain activity
+but the signals are usually so weak that they “average” across individuals after a spatial transformation
+to attempt to bring them into the same “coordinate system.”  I have, with no success, railed against
+this since I first heard the idea.  To try to clarify, it is reasonably well-known and understood that the ability
+to use language is lateralized (exists on one side of the brain) and that left handed people have language 
+lateralized to a different side than right handed people.  For this reason most fMRI language studies
+use the Glasgow handedness test to eliminate “left handed” people as subjects.  Of course, it not known
+if blue eyes are related to the ability to throw a baseball, or if blonde hair is related to the ability to do arithmetic.
+And, of course, we don’t know if, with extensive training one could move any lateralization to the “other side.”
+I, for example have a left handed older sister and she taught me to swing a baseball bat (so I’m a lefty) and that
+naturally spilled over into golf which my sister has never played (i’m a lefty again).  I am right handed in
+everything else that I know of.
+
+The spatial transforms used in these methods are named after the Individual who collected the images
+that are the bases of the particular transform.  The first was Tailarach (-Tournoux); a more modern one
+is Montreal Neurological Institute (MNI) and so forth.  There is very little reason to think that the individuals
+in a particular experiment correspond in any particular way to the individuals used to generate a particular
+transform.
+
+Bill
+———————————————————————
+this is incredibly interesting!  I wonder if we should write a paper on it,
+and/or get Spencer to do another series of articles.
+Karen
+———————————————
+Wow!  Fascinating!  You are quite the expert!  Super interesting, and I bet that those guys who wrote the software know nothing about this.
+
+A
+——————————————————
+The software was developed by Ann Ross, a professor of biological sciences at NC State.  She got her Ph.D. at UT Knoxville
+(think Dawnie Steadman) in Forensic Anthropology in 2000 and appears to be closely connected to the NC state forensic lab.  For those of
+you who don’t know, a former student of mine (25 years ago) holds an endowed chair in CS at UT Knoxville and despite
+decades of experience in collaboration was unable to get Dawnie to work with him on an NIJ funded project (LaPorte) to turn her
+material into a useful database.  He did get access to her data.  I will follow up with him.
+
+There is no sign that Ross had any input from statistics or is even remotely aware that the methods I mentioned in my previous
+note have been in extensive use in fMRI studies for decades.  The goals of the two fields are quite different.  She also seems not to be
+experienced with computing and outsourced the software work to someone at FSU.
+
+It appears that all Ross has are measurements from forensic skulls whereas the fMRI folks use MR images of living people which are
+inherently more detailed.  I repeat, the goals of the two fields are different.  I further note that I recall that in CR Rao’s book on linear statistical
+inference he had an example based on cranial measurements; I’ll try to look it up.
+
+I don’t know the Spencer you refer to is.  We have a graduate student named Neil Spencer who worked on shoe prints.  Last year’s
+SPAIG award included Bruce Spencer at Northwestern.  I doubt it’s either of them.
+
+Bill
+—————————————————
+Spencer Hsu, the journalist from the WaPo.
+
+A
+—————————————————
+Don't know a ton about this type of morphometry work but do have some relevant experience.
+I used to do some work with a psychiatrist who used a lot of 2-d and 3-d measurements of facial and cranial landmarks and was able to associate them with a number of diagnoses.  One that I remember is that there is a tendency towards larger head size in autistic children.
+Hal
+—————————————
+Sounds like a great plan.  Please follow through.
+
+A
+————————————————
+A few random thoughts:
+- I thought of that section in CR Rao's book too!
+- I think Alyson Wilson (Alicia's former colleague) is at the Forensics Center at NCSU, so maybe she knows something about it.
+ K
+August 11
+——————————————————
+Additional Info
+
+I know Alyson.  She got a MS in Statistics at CMU before she got her Ph.D. at Duke, went
+to Los Alamos, then to ISU then to DC and now to NCSU.
+
+Part of the reason that I’ve included these excerpts is to expose you to the idea that
+even very smart people don’t know anything about this stuff, primarily because they have
+never been prompted to think about it.  Years ago, at my last meeting as Chair of the 
+Committee on National Statistics at the National Academies, I was asked (as a kind of
+honor) to talk about my research about functional brain imaging.  The research spans
+statistics, imaging physics, cognitive psychology, etc., etc.  The committee members had two kinds of reactions: a) this is not related to my personal narrow focus on Federal
+statistics so I’m going to sleep; b) this is absolutely amazing! How did Bill get to be
+chair of the most important statistics organization in the country?  This is completely unrelated.
