@@ -97,3 +97,4 @@ cumsum(ev)/sum(ev)
  [1] 0.3825144 0.6482720 0.8108719 0.8540839 0.8890352 0.9160762 0.9308191
 ```
 Wow, the same picture, three PCs explain 81% of variance for 75 variables, 908 complete observations. 
+Notable the first three eigenvetors are Y's, X's, and Z's, correspondingly. 
