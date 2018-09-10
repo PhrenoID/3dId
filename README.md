@@ -83,3 +83,17 @@ cumsum(ev)/sum(ev)
 Three principal components account for 82% of variance, thats out of 
 the total of 15 variables that are predominantly not missing.
 
+The following variables are not missing as often
+```
+vs = c(0:4,8:19,26:33)
+vs=c(3*vs,3*vs+1,3*vs+2)+7
+sel = is.na(apply(x[,vs],1,sum));
+table(sel)
+FALSE  TRUE 
+  908   164 
+
+ev = prcomp(x[!sel,vs])$sdev;
+cumsum(ev)/sum(ev)
+ [1] 0.3825144 0.6482720 0.8108719 0.8540839 0.8890352 0.9160762 0.9308191
+```
+Wow, the same picture, three PCs explain 81% of variance for 75 variables, 908 complete observations. 
