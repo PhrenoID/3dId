@@ -71,7 +71,7 @@ FALSE  TRUE
  1034    38 
 ```
 
-first five variables are OK, though, lets look at them:
+first five (3d) measures are OK, though, lets look at them:
 
 ```
 sel = is.na(apply(x[,7:(7+3*5)],1,sum));
@@ -80,5 +80,6 @@ cumsum(ev)/sum(ev)
 [1] 0.3972115 0.6789811 0.8178958 0.8713678 0.9154606 0.9439236 0.9613881
 ```
 
-Three variables account for 82% of variance
+Three principal components account for 82% of variance, thats out of 
+the total of 15 variables that are predominantly not missing.
 
