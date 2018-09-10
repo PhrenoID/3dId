@@ -1,6 +1,6 @@
 # Review of 3D_ID software
 
-[The ouline for the review](https://github.com/PhrenoID/3dId/blob/master/outline.md)
+[The outline for the review](https://github.com/PhrenoID/3dId/blob/master/outline.md)
 
 ## First obtain the software and the data from http://www.3d-id.org/download-3d-id
 ```
