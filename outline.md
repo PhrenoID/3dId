@@ -1,6 +1,6 @@
 Review of 3D_ID
 ===============
-Draft 0.0
+Draft 0.1
 ——————————
 
 Introduction
@@ -38,8 +38,18 @@ fMRI
 	Atlases
 
 Reproducibility
+        
+	Reproducing measures: instrument, expert, state of the scull
+	
+	Reproducing algorithms
+	
+	Reproducing classification (impact of errors/algoritmic choices/sample)
+	
+	Reproducing etnic identification (one of the challanges may be defining it in the first place)
 
 The Software Review
+
+        Data (used by software and entered by investigators)
 
 	Code
 
