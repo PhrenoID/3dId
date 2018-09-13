@@ -11,7 +11,7 @@ cd j3d_id/j3d_id/data
 ```
 
 The 34 fields and how they are collected is described at http://www.3d-id.org/tips-and-tricks.
-[The template used for collecting data](https://github.com/PhrenoID/3dId/blob/master/3DID\ Data\ Collection\ Template.xlsx) 
+[The template used for collecting data]("https://github.com/PhrenoID/3dId/blob/master/3DID Data Collection Template.xlsx") 
 
 
 Get data from the .mdt file into R-compatble .csv
