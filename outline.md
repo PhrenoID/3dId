@@ -45,7 +45,7 @@ Reproducibility
 	
 	Reproducing classification (impact of errors/algoritmic choices/sample)
 	
-	Reproducing etnic identification (one of the challanges may be defining it in the first place)
+	Reproducing ethnic identification (one of the challanges may be defining it in the first place)
 
 The Software Review
 
