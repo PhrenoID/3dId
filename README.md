@@ -2,12 +2,14 @@
 
 [The outline for the review](https://github.com/PhrenoID/3dId/blob/master/outline.md)
 
-## How data is collected
+## How data are collected
 
 The 35 fields and how they are collected is described at http://www.3d-id.org/tips-and-tricks.
 [The template used for collecting data](https://github.com/PhrenoID/3dId/blob/master/3DIDDataCollectionTemplate.xlsx).
 The collection process apparently involves a specific digitizer (MicroScribe digitizer) that has a pointer
 that can be moved to any of the specified locations. 
+
+Notably, only 25 measures are non-missing if we want to look at more than half of the sample (see analysis below).
 
 There appear to be errors associated with
 
@@ -15,6 +17,7 @@ There appear to be errors associated with
   - digitizer calibration
   - digitizer software (e.g., how it translates/shifts/rotates the data entered into the normalized position)
   - expertise of the person who selecs the location of the points (several points apparently have low cross-digitizer reliability "R/L mastoidale, R/L ectomalare,  R upper and lower orbits, and prosthion. You may also want to omit R/L nasomaxillary suture pinch")
+  - quality of the specimen
 
 
 ## Obtain the software and the data from http://www.3d-id.org/download-3d-id
