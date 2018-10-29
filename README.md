@@ -124,22 +124,3 @@ Since the relative positions are of interest this pattern variation is to be exp
 
 
 
-Lets do rotation invariance, for example get vectors to each
-point start from the back of the scull (point Lambda or number 16)
-```
-y=x[,1:7];
-vs1 = c(0:4,8:14,16:19,26:33);
-vs0=15;
-for (i in vs1){
-  from = c(3*vs0,3*vs0+1,3*vs0+2)+7;
-  to = c(3*i,3*i+1,3*i+2)+7;
-  y=cbind(y,x[,to]-x[,from]);
-}
-sel = is.na(apply(y[,-c(1:7)],1,sum));
-ev = prcomp(y[!sel,-c(1:7)])$sdev;
-cumsum(ev)/sum(ev)
- [1] 0.3187010 0.5488526 0.7403628 0.8095424 0.8501557 0.8693864 0.8797763
- [8] 0.8868195 0.8937323 0.8991358
-```
-Still quite low dimensionality: four dimensions for 80% and 10 for
-90%, perhaps rescaling would help. 
